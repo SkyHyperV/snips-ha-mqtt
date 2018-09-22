@@ -19,7 +19,6 @@ configuration.yaml -- you can take the snippet from here and update your own con
 I didn't post the pwfile but you need to create your own with the command below and make sure its in the /etc/mosquitto directory.<BR><BR>
 COMMAND: sudo mosquitto_passwd -c /etc/mosquitto/pwfile YOUR_USER e.g. sudo mosquitto_passwd -c /etc/mosquitto/pwfile pi<BR><BR>
 Then enter your password (twice) and you should be good to go.<BR><BR>
-<BR>
   
 **Testing (from the video):**<BR>
 Once you have HA and MQTT Mosquitto working (no error in logs) then you can test subscription to the message bus as I showed in the video by running this:<BR><BR>
