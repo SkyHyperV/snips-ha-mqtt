@@ -1,5 +1,5 @@
 **YouTube video link:** <BR>
-[![Snips-Home Assistant MQTT Bridge](http://img.youtube.com/vi/VIDEO_ID/0.jpg)](http://www.youtube.com/watch?v=VIDEO_ID)
+[![Snips-Home Assistant MQTT Bridge](http://img.youtube.com/vi/x4bo7ru9q2M/0.jpg)](http://www.youtube.com/watch?v=x4bo7ru9q2M)
 
 <BR>
 
