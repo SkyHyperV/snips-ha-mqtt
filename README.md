@@ -1,4 +1,5 @@
-YouTube video link: 
+YouTube video link: <BR>
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/VIDEO_ID/0.jpg)](http://www.youtube.com/watch?v=VIDEO_ID)
 
 Snips Files:
 mosquitto_for_snips.conf -- make sure to take details from this file and create your own version
