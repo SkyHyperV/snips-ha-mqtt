@@ -1,0 +1,11 @@
+# THIS SNIPPET GOES INTO YOUR /home/homeassistant/.homeassistant/configuration.yaml whereever you want to place it
+
+snips:
+
+mqtt:
+  broker: <YOUR HA SERVER IP>
+  port: 1883
+  username: pi
+  password: pi
+  client_id: hass
+  discovery: true
