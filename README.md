@@ -1,5 +1,8 @@
 **YouTube video link:** <BR>
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/VIDEO_ID/0.jpg)](http://www.youtube.com/watch?v=VIDEO_ID)
+<BR>
+**Architecture Diagram:**<BR>
+snips_ha_architecture.pdf<BR><BR>
 
 **Snips Files:**<BR>
 mosquitto_for_snips.conf -- make sure to take details from this file and create your own version<BR>
@@ -13,9 +16,6 @@ I didn't post the pwfile but you need to create your own with the command below 
 COMMAND: sudo mosquitto_passwd -c /etc/mosquitto/pwfile YOUR_USER e.g. sudo mosquitto_passwd -c /etc/mosquitto/pwfile pi<BR><BR>
 
 Then enter your password (twice) and you should be good to go.<BR><BR>
-
-**Architecture Diagram:**<BR>
-snips_ha_architecture.pdf<BR><BR>
 
 **Testing (from the video):**<BR>
 Once you have HA and MQTT Mosquitto working (no error in logs) then you can test subscription to the message bus as I showed in the video by running this:<BR><BR>
