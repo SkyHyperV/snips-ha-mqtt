@@ -1,6 +1,8 @@
 **YouTube video link:** <BR>
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/VIDEO_ID/0.jpg)](http://www.youtube.com/watch?v=VIDEO_ID)
-<BR>
+
+<BR><BR>
+
 **Architecture Diagram:**<BR>
 snips_ha_architecture.pdf<BR><BR>
 
