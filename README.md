@@ -1,11 +1,11 @@
-**YouTube video link: <BR>
+**YouTube video link:** <BR>
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/VIDEO_ID/0.jpg)](http://www.youtube.com/watch?v=VIDEO_ID)
 
-**Snips Files:<BR>
+**Snips Files:**<BR>
 mosquitto_for_snips.conf -- make sure to take details from this file and create your own version<BR>
 snips.toml -- only edited the mqtt, username, password and bind lines. Compare with yours and update.<BR>
 
-**HA Files:<BR>
+**HA Files:**<BR>
 mosquitto_for_ha.conf -- make sure to take details from this file and create your own version<BR>
 configuration.yaml -- you can take the snippet from here and update your own configuration.yaml<BR>
 
@@ -14,9 +14,9 @@ COMMAND: sudo mosquitto_passwd -c /etc/mosquitto/pwfile YOUR_USER e.g. sudo mosq
 
 Then enter your password (twice) and you should be good to go.<BR><BR>
 
-**Architecture Diagram:<BR>
+**Architecture Diagram:**<BR>
 snips_ha_architecture.pdf<BR><BR>
 
-**Testing (from the video):<BR>
+**Testing (from the video):**<BR>
 Once you have HA and MQTT Mosquitto working (no error in logs) then you can test subscription to the message bus as I showed in the video by running this:<BR><BR>
 sudo mosquitto_sub -t hermes/# -u YOUR_USER -P YOUR_PASSWORD
